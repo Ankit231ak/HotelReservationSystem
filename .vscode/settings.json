@@ -1,9 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\nine2\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TMMRXBZU\\mysql-connector-j-9.3.0[1].jar",
-        "c:\\Users\\nine2\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\RMGJL2N1\\mysql-connector-j-9.3.0[1].jar",
-        "c:\\Users\\nine2\\Downloads\\mysql-connector-j-9.3.0\\mysql-connector-j-9.3.0\\mysql-connector-j-9.3.0.jar"
-    ],
-    "java.debug.settings.onBuildFailureProceed": true
-}
