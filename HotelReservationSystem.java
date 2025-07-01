@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class HotelReservationSystem {
     private static final String url = "jdbc:mysql://localhost:3306/project1";
     private static final String username = "root";
-    private static final String password = "********";
+    private static final String password = "90901212";
 
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class HotelReservationSystem {
                 System.out.println("0. Exit");
                 System.out.print("Choose an option: ");
                 int choice = sc.nextInt();
-                sc.nextLine(); // consume newline
+                sc.nextLine(); 
 
                 switch (choice) {
                     case 1 -> reserveRoom(con, sc);
@@ -54,7 +54,7 @@ public class HotelReservationSystem {
             String guestName = sc.nextLine();
             System.out.print("Enter room number: ");
             int roomNumber = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
             System.out.print("Enter contact number: ");
             String contactNumber = sc.nextLine();
 
